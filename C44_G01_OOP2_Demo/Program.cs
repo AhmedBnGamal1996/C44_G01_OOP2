@@ -1,4 +1,5 @@
 ﻿using C44_G01_OOP2_Demo.Encapsulation;
+using C44_G01_OOP2_Demo.Encapsulation.Indexer;
 
 namespace C44_G01_OOP2_Demo;
 internal class Program
@@ -40,7 +41,29 @@ internal class Program
 
 
 
-        #region  Video 2 
+        #region  Video 2 Indexer - PhoneBook
+
+        //PhoneBook phoneBook = new PhoneBook(3);
+        //phoneBook.AddNewPerson(0,"Ali", 123);
+        //phoneBook.AddNewPerson(1,"Mona", 456);
+        //phoneBook.AddNewPerson(2,"Samy", 789);
+
+
+        //phoneBook.SetNumber("Mona", 999);
+
+
+        //phoneBook["Mona"] = 999;
+        //Console.WriteLine(phoneBook["Mona"]);
+
+        //for (int i = 0; i < phoneBook.Size; i++)
+        //{
+        //    Console.WriteLine(phoneBook[i]);
+        //}
+
+        //foreach (var person in phoneBook)
+        //{
+        //    Console.WriteLine(person);
+        //}
 
 
 
@@ -53,6 +76,16 @@ internal class Program
         #endregion
 
 
+
+
+        #region Video 3 Class vs Struct
+
+
+
+
+
+
+        #endregion
 
 
 
