@@ -1,4 +1,5 @@
-﻿using C44_G01_OOP2_Demo.Encapsulation;
+﻿using C44_G01_OOP2_Demo.Class;
+using C44_G01_OOP2_Demo.Encapsulation;
 using C44_G01_OOP2_Demo.Encapsulation.Indexer;
 
 namespace C44_G01_OOP2_Demo;
@@ -78,7 +79,45 @@ internal class Program
 
 
 
-        #region Video 3 Class vs Struct
+        #region Video 3 Class & Constructor Chaining
+
+        // Car c1;
+        // Create Reference [ Spacial Variable ] 
+        // CLR will allocate 4 bytes in stack for the reference 
+        // CLR will allocate 0 bytes in Heap
+
+        // c1 = new(1, "BMW", "Red");
+
+
+        // c1 ==> Can refer to an instance from Car or any class that inhiret 
+
+        // Compiler will generate the parameterless constructor 
+        // Parameterless Ctor in class ==> do nothing
+
+        // 1] Allocate required bytes in heap 12 bytes
+        // 2] initailize with the default value 
+        // 3] Calll user defined Ctor if exist 
+        // 4] Assign instance to the referenced in the stack 
+
+
+
+
+        #region Class & Constructor Chaining [ Car ex ]
+
+        Car c1 = new Car(1, "Toyota", "Black");
+        Console.WriteLine(c1);
+
+        Car c2 = new Car(2, "BMW");
+        Console.WriteLine(c2);
+
+        Car c3 = new Car(3);
+        Console.WriteLine(c3);
+
+        #endregion
+
+
+
+
 
 
 
