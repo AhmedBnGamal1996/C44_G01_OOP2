@@ -2,11 +2,12 @@
 using C44_G01_OOP2_Demo.Encapsulation;
 using C44_G01_OOP2_Demo.Encapsulation.Indexer;
 using C44_G01_OOP2_Demo.Inhiretance;
+using Common;
 
 namespace C44_G01_OOP2_Demo;
 internal class Program
 {
-     static void Main(string[] args)
+    static void Main(string[] args)
     {
 
         #region Video 1 Enacpsulation 
@@ -172,6 +173,26 @@ internal class Program
 
         #region Video 6 Access Modifiers [ Protected ]
 
+        //TypeA typeA = new TypeA();
+
+        //typeA.A = 1;    // Private InValid
+        //typeA.B = 2;    // Internal InValid 
+        //typeA.C = 3;    // Public  Valid
+        //typeA.x = 4;    // Private  InValid
+        //typeA.y = 5;    // Private   InValid
+        //typeA.z = 6;    // internal   InValid
+
+
+
+
+        //TypeD typeD = new TypeD();
+        //typeD.C = 10;       // Public 
+
+        // TypeD.y = 20;   // Private - Invalid 
+
+        // TypeD.z = 30;       // Private - Invalid 
+
+       
 
 
 
@@ -179,29 +200,6 @@ internal class Program
 
         #endregion
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
+
 }
