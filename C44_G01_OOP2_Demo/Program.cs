@@ -1,6 +1,7 @@
 ﻿using C44_G01_OOP2_Demo.Class;
 using C44_G01_OOP2_Demo.Encapsulation;
 using C44_G01_OOP2_Demo.Encapsulation.Indexer;
+using C44_G01_OOP2_Demo.Inhiretance;
 
 namespace C44_G01_OOP2_Demo;
 internal class Program
@@ -104,14 +105,61 @@ internal class Program
 
         #region Class & Constructor Chaining [ Car ex ]
 
-        Car c1 = new Car(1, "Toyota", "Black");
-        Console.WriteLine(c1);
+        //Car c1 = new Car(1, "Toyota", "Black");
+        //Console.WriteLine(c1);
 
-        Car c2 = new Car(2, "BMW");
-        Console.WriteLine(c2);
+        //Car c2 = new Car(2, "BMW");
+        //Console.WriteLine(c2);
 
-        Car c3 = new Car(3);
-        Console.WriteLine(c3);
+        //Car c3 = new Car(3);
+        //Console.WriteLine(c3);
+
+        #endregion
+
+
+
+
+
+
+
+
+
+
+
+
+        #endregion
+
+
+        #region  Video 5 Inhiretance [ Parent , Child Ex ] 
+
+        //Parent p1;
+        // Create Reference [4byte in stack ] 
+        //p1 = new Parent(10, 20);
+        //Console.WriteLine(p1);
+        //Console.WriteLine(p1.ToString());
+        //Console.WriteLine( p1.Product());
+        //p1.MyFun();
+
+
+        //Child c1 = new Child(1, 2, 3);
+
+        //Console.WriteLine(c1.Product());
+
+        //Console.WriteLine(c1);
+
+
+        //Child c1 = new Child(1, 2, 3);
+        //Console.WriteLine(c1);
+
+        //Console.WriteLine(c1.Product());
+
+        //Console.WriteLine(c1);
+
+        //c1.MyFun();
+
+
+
+
 
         #endregion
 
@@ -122,12 +170,14 @@ internal class Program
 
 
 
+        #region Video 6 Access Modifiers [ Protected ]
+
+
+
+
 
 
         #endregion
-
-
-
 
 
 
